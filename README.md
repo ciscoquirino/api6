@@ -1,26 +1,83 @@
-# Projeto Individual IA
+#  Sistema de base para Aprendizado por Reforço a partir de feedback humano para LLM
 
-### Tema:
-Sistema de base para Aprendizado por Reforço a partir de feedback humano para LLM
-
-### Product BackLog:
-![prodbl](https://github.com/user-attachments/assets/97060993-5c65-41cd-9e27-30635466709b)
-
-### Sprint 1:
-#### Sprint Backlog
-![sprbl](https://github.com/user-attachments/assets/0032fe9e-bc2a-4529-a97f-d44d21897cdc)
-
-#### Entrega de Valor
-
-##### Vídeo da aplicação
-
-https://github.com/user-attachments/assets/bd731589-109f-40da-9049-49b3a1ed50c4
-
-##### Dados salvos no BD
-![test1](https://github.com/user-attachments/assets/35f38806-b624-4b8f-8243-cee492b12aba)
+![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-blue?logo=postgresql)
+![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow)
 
 
+---
+
+## 📚 Contexto do Negócio
+Com a crescente adoção de **Modelos de Linguagem de Grande Escala (LLMs)**, torna-se essencial a prática de **retreinamento supervisionado** desses modelos a partir de **feedback humano estruturado**.
+Inspirado em práticas de empresas como Google e OpenAI, este sistema busca viabilizar avaliações humanas de respostas de LLMs para futuros ajustes e melhorias de performance.
+
+---
+
+## 🧑‍🤝🧑 Stakeholders / Usuários
+- **Usuários Avaliadores**: Avaliam a qualidade das respostas geradas pelos modelos.
+- **Cientistas de Dados**: Utilizam os dados coletados para retreinamento e ajuste de LLMs.
+- **Especialistas**: Fornecem dados especializados para melhoria das respostas e avaliam sua relevância de acordo com sua especialidade.
+
+---
+
+## 💥 Dores
+- Dificuldade em obter feedback humano padronizado para comparação de respostas de LLMs.
+- Necessidade de interface intuitiva para usuários não técnicos.
+- Necessidade de armazenamento estruturado e seguro dos dados de avaliação.
+
+---
+
+## 📋 Requisitos
+
+### ✅ Requisitos Funcionais
+- Integração com 2 (duas) API´s públicas de LLM´s;
+- Tela de interface para obtenção dos prompts e submissão às LLM´s;
+- Telas de interface para obtenção de feedback humano, com avaliação de prompts;
+- Gráficos de desempenho das LLM´s.
 
 
 
+---
+
+## 🗂️ Backlog do Produto
+
+![alt text](images/productbacklog.png)
+
+---
+
+## 🗓️ Cronograma de Entregas
+
+### 🏁 Sprint 1
+- **Objetivo**: Aplicativo console com envio de prompts e coleta de avaliações individuais.
+- **Entregas**:
+  - Integração com APIs de LLMs.
+  - Banco de dados estruturado para armazenamento.
+- 📽️ [Link para vídeo Sprint 1](https://youtu.be/avEcBQLALLY)  
+- 📄 [Link para documentação Sprint 1](doc/Sprint1)
+
+### 🏁 Sprint 2
+- **Objetivo**: Preferência entre respostas e verificação automática de coerência nas avaliações.
+- **Entregas**:
+  - Comparações e justificativas.
+  - Correção automática de avaliações incoerentes.
+- 📽️ [Link para vídeo Sprint 2](https://youtu.be/7d1iJLOYE2Q)  
+- 📄 [Link para documentação Sprint 2](doc/Sprint2/)
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+- **Python 3.11** (Linguagem de programação)
+- **Tembo.io** (Servidor remoto de Banco de Dados)
+- **PostgreSQL 15** (Banco de Dados)
+- **Groq API** (Acesso a modelos LLM)
+- **Llama / Gemma** (modelos LLM pré-treinados)
+
+---
+
+## 👨‍💻 Equipe
+- **Francisco Douglas Quirino** - Desenvolvedor
+
+---
+
+> **Nota**: Este projeto foi desenvolvido como parte do Programa de Aprendizagem por Projetos Integrados (API) da Fatec São José dos Campos em parceria com a empresa Dom Rock.
 
