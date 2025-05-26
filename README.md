@@ -63,6 +63,15 @@ Inspirado em práticas de empresas como Google e OpenAI, este sistema busca viab
 - 📽️ [Link para vídeo Sprint 2](https://youtu.be/7d1iJLOYE2Q)  
 - 📄 [Link para documentação Sprint 2](doc/Sprint2/)
 
+### 🏁 Sprint 3
+- **Objetivo**: Frontend, RAG e implementação.
+- **Entregas**:
+  - Embeddings
+  - RAG - Retrieval Augmented Generation
+  - Frontend
+  - Implementação com servidor Flask
+- 📽️ [Link para vídeo Sprint 3](https://youtu.be/M6efwwBkWlA)  
+- 📄 [Link para documentação Sprint 2](doc/Sprint3/)
 ---
 
 ## 🛠️ Tecnologias Utilizadas
@@ -71,6 +80,9 @@ Inspirado em práticas de empresas como Google e OpenAI, este sistema busca viab
 - **PostgreSQL 15** (Banco de Dados)
 - **Groq API** (Acesso a modelos LLM)
 - **Llama / Gemma** (modelos LLM pré-treinados)
+- **Vue** Frontend
+- **CromaDB** Banco de Dados Vetorial
+- **Flask** Servidor Backend
 
 ---
 
