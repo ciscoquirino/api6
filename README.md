@@ -71,7 +71,7 @@ Inspirado em práticas de empresas como Google e OpenAI, este sistema busca viab
   - Frontend
   - Implementação com servidor Flask
 - 📽️ [Link para vídeo Sprint 3](https://youtu.be/M6efwwBkWlA)  
-- 📄 [Link para documentação Sprint 2](doc/Sprint3/)
+- 📄 [Link para documentação Sprint 3](doc/Sprint3/)
 ---
 
 ## 🛠️ Tecnologias Utilizadas
